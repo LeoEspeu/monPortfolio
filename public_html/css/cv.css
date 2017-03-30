@@ -60,7 +60,8 @@ content:'';
 display:block;
 }
 
-.rubrique {margin-bottom:15px; }
+.rubrique {
+margin-bottom:15px; }
 .rubrique h2 {
 color:rgb(226,0,26); }
 .rubrique h2:before{ 
