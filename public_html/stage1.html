@@ -9,6 +9,10 @@ and open the template in the editor.
         <link href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" />
         <link href="css/cv.css" rel="stylesheet" />
         <link rel="stylesheet" href="css/styles.css" type="text/css" />
+        <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"/>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
@@ -78,60 +82,95 @@ and open the template in the editor.
         <!--Placed at the end of the document so the pages load faster -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="css\bootstrap-3.3.7-dist\js\bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
         <div class="jumbotron">
-            <div class="container">
-                <h1>Voici mon travail réalisés en stage de première année !</h1>
-                <p>
-                    Mon travail consistait à résoudre plusieurs anomalies ou rajouter des éléments spécifiques pour l'aide à l'utilisateur dans la réalisation 
-                    d'un projet d'une application en java gwt.
-                </p>  
+            <div>
+            </div>
+            <div class="row">
+                <div class="col-md-1"><i class="large material-icons">business_center</i></div>
+                <div class="col-md-11"><h2 class="text-left">Voici mon travail réalisés en stage de première année !</h2></div>
+            </div>
+            <div>
+                <p class="text-left">Durant la période de stage j'ai contribué à la réalisation d'une application en java gwt
+                    sur l'IDE Eclipse .Mon travail consistait à faire des tests d'intègration ,résoudre des anomalies et rajouter des 
+                    élements simples dans l'application.
+                </p>
             </div>
         </div>
-        <div>
-            <img src="images/Capture erreur.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" />
-        </div>
-        <div>
-            <img src="images/Capture klistbox.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" />
-        </div>
-        <div>
-            <img src="images/Capture addchangehandler.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" />
-        </div>
-        <div>
-            <img src="images/Capture knossos suggestion recherche.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" />
-        </div>
-        <div>
-            <img src="images/Capture knossos suggestion.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" />
-        </div>
-        <div>
-            <img src="images/Capture knossos suggestionrecherche.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" />
-        </div>
-        <div>
-            <img src="images/Capture ksuggestlist FI.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" />
-        </div>
-        <div>
-            <img src="images/Capture ksuggestlist simulation addchangehandler.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" />
-        </div>
-        <div>
-            <img src="images/Capture ksuggestlist sur la fi.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" />
-        </div>
-        <div>
-            <img src="images/Capture ksuggestlistRecherche getsetselectedvalue.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" />
-        </div>
-        <div>
-            <img src="images/Capture ksuggestlistRecherche rechercheFI.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" />
-        </div>
-        <div>
-            <img src="images/Capture ksuggestoracle recherche.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" />
-        </div>
-        <div>
-            <img src="images/Capture ksuggestoracle.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" />
-        </div>
-        <div>
-            <img src="images/Capture setselectedid cbxprocedureFIP.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" />
-        </div>
-        <div>
-            <img src="images/Capture setselectevalue cbxprocedureFIP.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" />
-        </div>
+        <div id="copyright"><h4>Tableau du code et descriptif des anomalies résolues et des éléments ajoutés dans l'application:</h4></div>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Description</th>
+                    <th>Code Java</th>
+                </tr>
+            </thead>
+            <tr>
+                <th>photo annomalie erreur lors de la résolution d'anomalie</th>
+                <th><img src="images/Capture klistbox.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
+            </tr>
+            <tr>
+                <th>photo annomalie erreur lors de la résolution d'anomalie</th>
+                <th><img src="images/Capture addchangehandler.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
+            </tr>
+            <tr>
+                <th>photo annomalie erreur lors de la résolution d'anomalie</th>
+                <th><img src="images/Capture erreur.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
+            </tr>
+            <tr>
+                <th>photo annomalie erreur lors de la résolution d'anomalie</th>
+                <th><img src="images/Capture knossos suggestion recherche.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
+            </tr>
+            <tr>
+                <th>photo annomalie erreur lors de la résolution d'anomalie</th>
+                <th><img src="images/Capture knossos suggestion.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
+            </tr>
+            <tr>
+                <th>photo annomalie erreur lors de la résolution d'anomalie</th>
+                <th><img src="images/Capture knossos suggestionrecherche.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
+            </tr>
+            <tr>
+                <th>photo annomalie erreur lors de la résolution d'anomalie</th>
+                <th><img src="images/Capture ksuggestlist FI.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
+            </tr>
+            <tr>
+                <th>photo annomalie erreur lors de la résolution d'anomalie</th>
+                <th><img src="images/Capture ksuggestlist simulation addchangehandler.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
+            </tr>
+            <tr>
+                <th>photo annomalie erreur lors de la résolution d'anomalie</th>
+                <th><img src="images/Capture ksuggestlist sur la fi.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
+            </tr>
+            <tr>
+                <th>photo annomalie erreur lors de la résolution d'anomalie</th>
+                <th><img src="images/Capture ksuggestlistRecherche getsetselectedvalue.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
+            </tr>
+            <tr>
+                <th>photo annomalie erreur lors de la résolution d'anomalie</th>
+                <th><img src="images/Capture ksuggestlistRecherche rechercheFI.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
+            </tr>
+            <tr>
+                <th>photo annomalie erreur lors de la résolution d'anomalie</th>
+                <th><img src="images/Capture ksuggestoracle recherche.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
+            </tr>
+            <tr>
+                <th>photo annomalie erreur lors de la résolution d'anomalie</th>
+                <th><img src="images/Capture ksuggestoracle.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
+            </tr>
+            <tr>
+                <th>photo annomalie erreur lors de la résolution d'anomalie</th>
+                <th><img src="images/Capture setselectedid cbxprocedureFIP.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
+            </tr>
+            <tr>
+                <th>photo annomalie erreur lors de la résolution d'anomalie</th>
+                <th><img src="images/Capture setselectevalue cbxprocedureFIP.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
+            </tr>
+            <tr>
+                <th>photo annomalie erreur lors de la résolution d'anomalie</th>
+                <th><img src="images/Capture.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
+            </tr>
+        </table>
         <footer>
             <div class="container">
                 <p id="copyright">&copy;Léo Espeu 2016</p>
