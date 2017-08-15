@@ -6,6 +6,7 @@ and open the template in the editor.
 -->
 <html>   
     <head>
+        <link rel="icon" href="favicon.ico">
         <link href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" />
         <link href="css/cv.css" rel="stylesheet" />
         <link rel="stylesheet" href="css/styles.css" type="text/css" />
@@ -35,7 +36,7 @@ and open the template in the editor.
                             </a>
                             <ul class="dropdown-menu" role="menu">
                                 <li role="presentation" class="dropdown-header">En autonomie</li>
-                                <li role="presentation"><a role="menuitem" href="#">Application Android</a></li>
+                                <li role="presentation"><a role="menuitem" href="android.html">Application Android</a></li>
                                 <li role="presentation"><a role="menuitem" href="#">Site web</a></li>
                                 <li role="presentation"><a role="menuitem" href="#">Études et analyses</a></li>
                                 <li role="presentation" class="divider"></li>
@@ -69,7 +70,7 @@ and open the template in the editor.
                                 <li role="presentation"><a role="menuitem" href="#">Sources SP n°2</a></li>
                             </ul>
                         </li>
-                        <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Me contacter</a></li>
+                        <li><a href="mecontacter.html"><span class="glyphicon glyphicon-envelope"></span> Me contacter</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div><!--/.navbar-collapse -->
@@ -89,8 +90,11 @@ and open the template in the editor.
                         </div>
                     </div>
             </div>
-            <div class="row cadreCV"><div class="col-xs-12 col-sm-7">
+            <div class="row cadreCV" id="competence"><div class="col-xs-12 col-sm-7">
                     <!--Partie gauche -->
+                    <div class="container">
+                    <div class="panel panel-default" id="competence">
+                            <div class="panel-body">
                     <div class="rubrique">
                         <h2><span class="glyphicon glyphicon-comment"></span> En quelques mots...</h2>
                         <p>J'ai 20 ans, j'habite Toulon et je suis passionnée d'informatique et de nouvelles technologies depuis mon plus jeune âge. Je suis actuellement un
@@ -98,6 +102,12 @@ and open the template in the editor.
                             du développement d'applications, mon métier !
                         </p>
                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="container">
+                    <div class="panel panel-default">
+                            <div class="panel-body">
                     <div class="rubrique">
                         <h2><span class="glyphicon glyphicon-education"></span> Parcoursscolaire</h2>
                         <ul id="parcours" class="clearfix">
@@ -124,6 +134,12 @@ and open the template in the editor.
                             </li>
                         </ul>
                     </div>
+                                 </div>
+                            </div>
+                        </div>
+                    <div class="container">
+                    <div class="panel panel-default">
+                            <div class="panel-body">
                     <div class="rubrique">
                         <h2><span class="glyphicon glyphicon-briefcase"></span>Expériences professionnelles</h2>
                         <div class="experience clearfix">
@@ -136,7 +152,7 @@ and open the template in the editor.
                             </div>
                         </div>
                         <div class="experience clearfix">
-                            <div class="col-xs-3"><div class="lieu">DIRI</div><div class="date">2017 (6 sem.)</div></div>
+                            <div class="col-xs-3"><div class="lieu">Dirisi</div><div class="date">2017 (6 sem.)</div></div>
                             <div class="col-xs-9">
                                 <div class="profession">Développement JAVA GWT</div>
                                 <div class="details">Création/mise en œuvre d'un projet en JAVA GWT (GOOGLE WEB TOOLKING) sur l'IDE SAFRAN (Version de Eclipse) avec correctif de d'anomalie et tests
@@ -144,7 +160,13 @@ and open the template in the editor.
                                 </div>
                             </div>
                         </div>
+                         </div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="container">
+                    <div class="panel panel-default">
+                            <div class="panel-body">
                     <div id="langues" class="rubrique">
                         <h2><span class="glyphicon glyphicon-flag"></span> Langue</h2>
                         <div class="container">
@@ -169,6 +191,12 @@ and open the template in the editor.
                             </div>
                         </div>
                     </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                    <div class="panel panel-default">
+                            <div class="panel-body">
                     <div class="rubrique">
                     <h2><span class="glyphicon glyphicon-music"></span> Passions</h2>
                     <div class="passion"><span class="glyphicon glyphicon-heart"></span> Mathématiques</div>
@@ -178,10 +206,16 @@ and open the template in the editor.
                     <div class="passion"><span class="glyphicon glyphicon-heart"></span> Programation</div>
                     <div class="passion"><span class="glyphicon glyphicon-heart"></span> Lecture</div>
                     <div class="passion"><span class="glyphicon glyphicon-heart"></span> Cyclisme</div>
+                    </div>
                 </div>
                 </div>
-                <div class="col-xs-12 col-sm-5">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-5" id="competence">
                     <!--Partie droite -->
+                    <div class="container">
+                    <div class="panel panel-default">
+                            <div class="panel-body">
                     <div class="rubrique clearfix">
                         <h2><span class="glyphicon glyphicon-user"></span> Me contacter</h2>
                         <div class="meContacter">
@@ -227,6 +261,12 @@ and open the template in the editor.
                             </div>
                         </div>
                     </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="container">
+                    <div class="panel panel-default">
+                            <div class="panel-body">
                     <div id="competences" class="rubrique">
                         <h2><span class="glyphicon glyphicon-wrench"></span> Compétences</h2>
                         <div class="container">
@@ -299,6 +339,11 @@ and open the template in the editor.
                         </div>
                         <div class="meContacter">
                             <div class="details pull-left">
+                                <img src="images/materialize.png" alt="Icone de Materialize" /> Materialize
+                            </div>
+                        </div>
+                        <div class="meContacter">
+                            <div class="details pull-left">
                                 <img src="images/netbeans.png" alt="Icone de netbeans" /> Netbeans
                             </div>
                         </div>
@@ -335,6 +380,9 @@ and open the template in the editor.
                                 <img src="images/Windows.png" alt="Icone de Windows" /> Windows
                             </div>
                         </div>
+                    </div>
+                                </div>
+                    </div>
                     </div>
                 </div>
             </div>

@@ -16,6 +16,34 @@ margin-right:10px;
     text-align:center;
 }
 
-#text{
+#stage{
     font-size: 100px;
+}
+
+#android{
+    font-size:100px;
+    color: greenyellow;
+}
+
+#fond{
+    background-color: #5bc0de;
+    text-align: center;
+}
+
+#app{
+    margin-left: 35%;
+}
+
+#contact{
+    font-size:100px;
+    margin-left: 10px;
+}
+
+#bodycontact{
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+#competence{
+    margin-top:20px;
 }
