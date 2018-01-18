@@ -6,8 +6,6 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <!--Import materialize.css-->
-        <!link type="text/css" rel="stylesheet" href="css/materialize.min.css"/>
         <link rel="icon" href="favicon.ico">
         <title>Projet de stage de première année</title>
         <link href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" />
@@ -84,8 +82,6 @@ and open the template in the editor.
         <!--Placed at the end of the document so the pages load faster -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="css\bootstrap-3.3.7-dist\js\bootstrap.min.js"></script>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
         <div class="jumbotron">
             <div class="row">
                 <div class="col-md-1"><i id="stage" class="material-icons">business_center</i></div>
@@ -93,83 +89,11 @@ and open the template in the editor.
             </div>
             <div>
                 <p class="text-left">Durant la période de stage j'ai contribué à la réalisation d'une application en java gwt
-                    sur l'IDE Eclipse .Mon travail consistait à faire des tests d'intègration ,résoudre des anomalies et rajouter des 
+                    sur l'IDE Eclipse .Mon travail consistait à la réalisation de tests d'intègration ,la résolution d'anomalies et rajouter des 
                     élements simples dans l'application.
                 </p>
             </div>
         </div>
-        <div id="copyright"><h4>Tableau du code et descriptif des anomalies résolues et des éléments ajoutés dans l'application:</h4></div>
-        <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th>Description des modifications</th>
-                    <th>Code Java</th>
-                </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <th>Surcharge permettant à la permettant d'accepter en paramétre des types string en plus des types long.</th>
-                <th><img src="images/Capture klistbox.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
-            </tr>
-            <tr>
-                <th>Fonction permettant de modifier toutes les zones de texte associées en fonction de la procédure FIP choisit.</th>
-                <th><img src="images/Capture addchangehandler.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
-            </tr>
-            <tr>
-                <th>Anomalie involontaire créé en modifiant les setSelectedId en setSelectedValue ,j'ai modifié celle ci qui concernait la procédure du addChangeHandler 
-                    et conduisait à la levée d'une exception.</th>
-                <th><img src="images/Capture erreur.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
-            </tr>
-            <tr>
-                <th>Surcharge de la fonction permettant d'extraire des procédure FIP dans la collection contenant celle-ci qui sont ici sous la forme de type string (knossosSuggestionRecherche).</th>
-                <th><img src="images/Capture knossos suggestion recherche.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
-            </tr>
-            <tr>
-                <th>Constructeur de la classe knossosSuggestionRecherche acceptant en paramétre des types long.</th>
-                <th><img src="images/Capture knossos suggestion.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
-            </tr>
-            <tr>
-                <th>Constructeur de la classe knossosSuggestionRecherche acceptant en paramétre des types string.</th>
-                <th><img src="images/Capture knossos suggestionrecherche.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
-            </tr>
-            <tr>
-                <th>Ajout de la loupe dans la page associée à la zone de texte de recherche de procédure FIP</th>
-                <th><img src="images/Capture ksuggestlist FI.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
-            </tr>
-            <tr>
-                <th>Ajout de la fonction simulant la fonction addChangeHandler lorsque l'on sélectionne une procédure FIP soit par le clavier ou par lasouris.</th>
-                <th><img src="images/Capture ksuggestlist simulation addchangehandler.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
-            </tr>
-            <tr>
-                <th>Vue d'ensemble du menu déroulant permettant de rechercher une recherche FIP avec la loupe associée et des zones de texte modifiée en fonction de la procédure choisit.</th>
-                <th><img src="images/Capture ksuggestlist sur la fi.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
-            </tr>
-            <tr>
-                <th>Fonction permettant d'accéder au texte (ici de type string) dans la zone de recherche modifiées (cbxProcédureFipRecherche) de procédure FIP.</th>
-                <th><img src="images/Capture ksuggestlistRecherche getsetselectedvalue.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
-            </tr>
-            <tr>
-                <th>Ajout de la loupe modifiée affichant ici des types string</th>
-                <th><img src="images/Capture ksuggestlistRecherche rechercheFI.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
-            </tr>
-            <tr>
-                <th>fonction permettant d'extraire des procédure FIP ,en quantité limitée à 15, dans la collection contenant celle-ci qui sont ici sous la forme de type long (knossosSuggestion).</th>
-                <th><img src="images/Capture ksuggestoracle.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
-            </tr>
-            <tr>
-                <th>Fonction permettant d'accéder au texte (ici de type long) dans la zone de recherche (cbxProcédureFip) de procédure FIP</th>
-                <th><img src="images/Capture setselectedid cbxprocedureFIP.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
-            </tr>
-            <tr>
-                <th>Surcharge de la fonction permettant d'accéder au texte (ici de type long) dans la zone de recherche (cbxProcédureFip) de procédure FIP</th>
-                <th><img src="images/Capture setselectevalue cbxprocedureFIP.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
-            </tr>
-            <tr>
-                <th>Menu déroulant de la recherche de procédure FIP et la loupe qui lui est associée qui permet de réduire la liste de recherche en fonction du texte écrit dans la zone de texte .</th>
-                <th><img src="images/Capture.PNG" alt="photo annomalie erreur lors de la résolution d'anomalie" /></th>
-            </tr>
-            </tbody>
-        </table>
         <footer>
             <div class="container">
                 <p id="copyright">&copy;Léo Espeu 2016</p>
