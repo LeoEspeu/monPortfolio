@@ -131,7 +131,7 @@ font-weight:700; }
 margin-top:5px; 
 padding:0; }
 /* Pour empêcher la déformation du parcours scolaire selon la STA */
-@media(min-width:500px) { #parcours .date{ width:20%; } #parcours .details{ width:80%;} }
+@media(min-width:500px) { #parcours .date{ width:20%; } #parcours .details{ width:80%;} #name,#subject,#email,#message{width: 10%;} }
 @media(min-width:768px) { #parcours .date{ width:20%; }#parcours .details{ width:80%; } }
 @media(min-width:992px) { #parcours .date{ width:15%; } #parcours .details{ width:84%; } }
 @media(min-width:1200px) { #parcours .date{ width:13%; }#parcours .details{ width:87%; } }

@@ -16,7 +16,7 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    <body>
+    <body id="arriere">
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -40,8 +40,8 @@ and open the template in the editor.
                             <ul class="dropdown-menu" role="menu">
                                 <li role="presentation" class="dropdown-header">En autonomie</li>
                                 <li role="presentation"><a role="menuitem" href="android.html">Application Android</a></li>
-                                <li role="presentation"><a role="menuitem" href="#">Site web</a></li>
-                                <li role="presentation"><a role="menuitem" href="#">Études et analyses</a></li>
+                                <li role="presentation"><a role="menuitem" href="web.html">Site web</a></li>
+                                <li role="presentation"><a role="menuitem" href="images/presentation_projet_oxford.pdf">Projet Oxford</a></li>
                                 <li role="presentation" class="divider"></li>
                                 <li role="presentation" class="dropdown-header">En entreprise</li>
                                 <li role="presentation"><a role="menuitem" href="stage1.html">Projet de 1ère année</a></li>
@@ -61,7 +61,7 @@ and open the template in the editor.
                                 <li role="presentation"><a role="menuitem" href="#">Annexes</a></li>
                                 <li role="presentation" class="divider"></li>
                                 <li role="presentation" class="dropdown-header">Fiches d'examen</li>
-                                <li role="presentation"><a role="menuitem" href="#">Situation professionnelle n°1</a></li>
+                                <li role="presentation"><a role="menuitem" href="images/PPE-GSB.pdf">Situation professionnelle n°1</a></li>
                                 <li role="presentation"><a role="menuitem" href="#">Situation professionnelle n°2</a></li>
                                 <li role="presentation" class="divider"></li>
                                 <li role="presentation" class="dropdown-header">Démonstrations</li>
@@ -83,15 +83,24 @@ and open the template in the editor.
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="css\bootstrap-3.3.7-dist\js\bootstrap.min.js"></script>
         <div class="jumbotron">
-            <div class="row">
-                <div class="col-md-1"><i id="android" class="material-icons">android</i></div>
-                <div class="col-md-11"><h1 class="text-center">Mes Applications android !</h1></div>
+            <div class="container">
+                <h1 class="text-left"><span class="double">Application Androïd</span></h1>
             </div>
-            <div>
-                <p class="text-left">Durant le BTS ,j'ai réalisés durant les TP et en binome des applications android répondant à un
-                    cahier des charges ,c'est à dire ciblant une population et une utilisation précise .Voici une liste accompagné 
-                    d'une présentation de celles que j'ai réalisée.
+            <div class="separation">
+                <hr>
+                <div class="diviseur diviseur-gauche">
+                    <i class="fa fa-angle-down v1" aria-hidden="true"></i>
+                    <i class="fa fa-angle-down v2" aria-hidden="true"></i>
+                    <i class="fa fa-angle-down v3" aria-hidden="true"></i>
+                    <i class="fa fa-angle-down v4" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="container">
+                <p>
+                    <img id="maPhoto" class=" pull-left img-rounded" src="images/LeoEspeu.jpg" alt="Ma photo d'identité"/>
+                                        Voici une liste des applications Androïd que j'ai réalisés durant le BTS et les explication associées du contexte de travail.
                 </p>
+                <p><a class="btn btn-primary btn-lg" href="index.html" role="button">Retour à l'accueil &raquo;</a></p>
             </div>
         </div>
       <div class="container">

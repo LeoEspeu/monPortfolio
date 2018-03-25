@@ -37,8 +37,8 @@
                         <ul class="dropdown-menu" role="menu">
                             <li role="presentation" class="dropdown-header">En autonomie</li>
                             <li role="presentation"><a role="menuitem" href="android.html">Application Android</a></li>
-                            <li role="presentation"><a role="menuitem" href="#">Site web</a></li>
-                            <li role="presentation"><a role="menuitem" href="#">Études et analyses</a></li>
+                            <li role="presentation"><a role="menuitem" href="web.html">Site web</a></li>
+                            <li role="presentation"><a role="menuitem" href="images/presentation_projet_oxford.pdf">Projet Oxford</a></li>
                             <li role="presentation" class="divider"></li>
                             <li role="presentation" class="dropdown-header">En entreprise</li>
                             <li role="presentation"><a role="menuitem" href="stage1.html">Projet de 1ère année</a></li>
@@ -58,7 +58,7 @@
                             <li role="presentation"><a role="menuitem" href="#">Annexes</a></li>
                             <li role="presentation" class="divider"></li>
                             <li role="presentation" class="dropdown-header">Fiches d'examen</li>
-                            <li role="presentation"><a role="menuitem" href="#">Situation professionnelle n°1</a></li>
+                            <li role="presentation"><a role="menuitem" href="images/PPE-GSB.pdf">Situation professionnelle n°1</a></li>
                             <li role="presentation"><a role="menuitem" href="#">Situation professionnelle n°2</a></li>
                             <li role="presentation" class="divider"></li>
                             <li role="presentation" class="dropdown-header">Démonstrations</li>
@@ -82,26 +82,50 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <div class="jumbotron">
-        <div class="row">
-            <div class="col-md-1"><span id="contact" class="glyphicon glyphicon-envelope"></span></div>
-            <div class="col-md-11"><h1 id="copyright">Me contacter</h1></div>
-        </div>
+        <div class="container">
+                <h1 class="text-left"><span class="double">Me contactez</span></h1>
+            </div>
+            <div class="separation">
+                <hr>
+                <div class="diviseur diviseur-gauche">
+                    <i class="fa fa-angle-down v1" aria-hidden="true"></i>
+                    <i class="fa fa-angle-down v2" aria-hidden="true"></i>
+                    <i class="fa fa-angle-down v3" aria-hidden="true"></i>
+                    <i class="fa fa-angle-down v4" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="container">
+                <p>
+                    <img id="maPhoto" class=" pull-left img-rounded" src="images/LeoEspeu.jpg" alt="Ma photo d'identité"/>
+                    Formulaire à remplir pour me contacter par email.
+                </p>
+                <br>
+                <p><a class="btn btn-primary btn-lg" href="index.html" role="button">Retour à l'accueil &raquo;</a></p>
+            </div>
     </div>
-    <form method="post">
-        <div class="row" id="bodycontact">
-            <label for="name">Nom:</label>
-            <input type="text" name="Subject" id="name" required placeholder="Nom" class="form-control" />
-            <label for="name">Objet Du Message:</label>
-            <input type="text" name="Sujet" id="subject" required placeholder="Sujet" class="form-control"/>
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" required placeholder="email@exemple.com" class="form-control"/>
-        </div>
-        <div class="row"  id="bodycontact">
-            <label for="name">Message:</label>
-            <textarea class="form-control" rows="10"></textarea>
-        </div>
-        <div class="row"  id="bodycontact">
-            <input type="submit" value="Envoyer Mon Message" class="btn btn-success"/>
+    <form method="post" action="mail.php"  id="arriere">
+        <div class="container">
+            <div class="panel panel-default" id="cadre-envoi">
+                <div class="panel-body">
+                    <div class="container">
+                        <div class="row" id="bodycontact">
+                            <label for="name">Nom:</label>
+                            <input type="text" name="name" id="name" required placeholder="Nom" class="form-control" />
+                            <label for="name">Objet Du Message:</label>
+                            <input type="text" name="subject" id="subject" required placeholder="Sujet" class="form-control"/>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" required placeholder="email@exemple.com" class="form-control"/>
+                        </div>
+                        <div class="row"  id="bodycontact">
+                            <label for="name">Message:</label>
+                            <textarea class="form-control" rows="10" name="message" id="message" required></textarea>
+                        </div>
+                        <div class="row"  id="bodycontact">
+                            <input type="submit" value="Envoyer Mon Message" class="btn btn-success"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </form>
     <footer>

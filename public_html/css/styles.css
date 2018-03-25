@@ -26,7 +26,6 @@ margin-right:10px;
 }
 
 #fond{
-    background-color: #5bc0de;
     text-align: center;
 }
 
@@ -44,6 +43,40 @@ margin-right:10px;
     margin-top: 80px;
 }
 
-#competence{
+#competence,#introduction,#intro-bts,#cadre-envoi{
     margin-top:20px;
 }
+
+#web{
+    margin-left: 11%;
+}
+
+.item{
+    height: 600px;
+}
+
+#name,#subject,#email,#message{
+    width: 150px;
+}
+
+#image-fond{
+    background-image: url(images/informatique.jpg);
+}
+
+.jumbotron{
+    background-color: white;
+}
+
+#arriere,#competence{
+    background-color: lightgrey;
+}
+
+span.double{
+    text-decoration: underline #000;
+    border-bottom: 3px solid #000;
+}
+
+@media(min-width:500px) { #name,#subject,#email,#message{width: 350px;} }
+@media(min-width:768px) { #name,#subject,#email,#message{width: 450px;} }
+@media(min-width:992px) { #name,#subject,#email,#message{width: 600px;} }
+@media(min-width:1200px) { #name,#subject,#email,#message{width: 800px;} }
