@@ -1,0 +1,44 @@
+/* 
+    Document   : styles.css
+    Created on : 24 sept. 2016, 14:01:00
+    Author     : JG
+    Description: CSS de démo pour Nolark
+*/
+#reco, #teammap, #twitter, #twitter-widget-0 {
+    width: 950px;
+    margin: 0 auto 0 auto;
+}
+
+#teammap {
+    display: block;
+    height: 633px;
+    background: url(images/nolark_team.jpg) no-repeat;
+    position: relative;
+    margin: 2px auto 2px auto;
+}
+
+
+#membre1 {
+    left: 60px;
+    top: 85px;
+}
+
+#membre2 {
+    left: 220px;
+    top: 80px;
+}
+
+#membre3 {
+    left: 405px;
+    top: 10px;
+}
+
+#membre4 {
+    left: 585px;
+    top: 50px;
+}
+
+#membre5 {
+    left: 720px;
+    top: 111px;
+}

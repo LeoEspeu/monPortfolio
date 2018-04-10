@@ -7,11 +7,15 @@ and open the template in the editor.
 <html>   
     <head>
         <link rel="icon" href="favicon.ico">
+        <title>CV</title>
         <link href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" />
         <link href="css/cv.css" rel="stylesheet" />
         <link rel="stylesheet" href="css/styles.css" type="text/css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -38,7 +42,7 @@ and open the template in the editor.
                                 <li role="presentation" class="dropdown-header">En autonomie et engroupe</li>
                                 <li role="presentation"><a role="menuitem" href="android.html">Application Web et Android</a></li>
                                 <li role="presentation"><a role="menuitem" href="web.html">Site web</a></li>
-                                <li role="presentation"><a role="menuitem" href="images/presentation_projet_oxford.pdf">Projet Oxford</a></li>
+                                <li role="presentation"><a role="menuitem" href="logiciel.html">Logiciel</a></li>
                                 <li role="presentation" class="divider"></li>
                                 <li role="presentation" class="dropdown-header">En entreprise</li>
                                 <li role="presentation"><a role="menuitem" href="stage1.html">Projet de 1ère année</a></li>
@@ -59,15 +63,15 @@ and open the template in the editor.
                                 <li role="presentation" class="divider"></li>
                                 <li role="presentation" class="dropdown-header">Fiches d'examen</li>
                                 <li role="presentation"><a role="menuitem" href="images/PPE-GSB.pdf">Situation professionnelle n°1</a></li>
-                                <li role="presentation"><a role="menuitem" href="#">Situation professionnelle n°2</a></li>
+                                <li role="presentation"><a role="menuitem" href="images/PPE_M2L.pdf">Situation professionnelle n°2</a></li>
                                 <li role="presentation" class="divider"></li>
                                 <li role="presentation" class="dropdown-header">Démonstrations</li>
                                 <li role="presentation"><a role="menuitem" href="#">Démo SP n°1</a></li>
                                 <li role="presentation"><a role="menuitem" href="#">Démo SP n°2</a></li>
                                 <li role="presentation" class="divider"></li>
                                 <li role="presentation" class="dropdown-header">Codes sources</li>
-                                <li role="presentation"><a role="menuitem" href="#">Sources SP n°1</a></li>
-                                <li role="presentation"><a role="menuitem" href="#">Sources SP n°2</a></li>
+                                <li role="presentation"><a role="menuitem" href="https://github.com/LeoEspeu/gsb">Sources SP n°1</a></li>
+                                <li role="presentation"><a role="menuitem" href="https://thomaslaure.visualstudio.com/MaisonDesLigues">Sources SP n°2</a></li>
                             </ul>
                         </li>
                         <li><a href="mecontacter.html"><span class="glyphicon glyphicon-envelope"></span> Me contacter</a></li>
@@ -109,7 +113,7 @@ and open the template in the editor.
                         <div class="panel panel-default">
                             <div class="panel-body">
                                 <div class="rubrique">
-                                    <h2><span class="glyphicon glyphicon-education"></span> Parcoursscolaire</h2>
+                                    <h2><span class="glyphicon glyphicon-education"></span> Parcours scolaire</h2>
                                     <ul id="parcours" class="clearfix">
                                         <li>
                                             <div class="date pull-left"><span class="glyphicon glyphicon-record"></span>&nbsp;2018</div>
@@ -141,22 +145,22 @@ and open the template in the editor.
                         <div class="panel panel-default">
                             <div class="panel-body">
                                 <div class="rubrique">
-                                    <h2><span class="glyphicon glyphicon-briefcase"></span>Expériences professionnelles</h2>
+                                    <h2><span class="glyphicon glyphicon-briefcase"></span> Expériences professionnelles</h2>
                                     <div class="experience clearfix">
-                                        <div class="col-xs-3"><div class="lieu">Dirisi</div><div class="date">2018 (6 sem.)</div></div>
+                                        <div class="col-xs-3"><div class="lieu">Dirisi/CDADT de Toulon</div><div class="date">2018 (6 sem.)</div></div>
                                         <div class="col-xs-9">
-                                            <div class="profession">Developpement PHP Symfony 2</div>
+                                            <div class="profession">Developpement PHP Symfony 3.3</div>
                                             <div class="details">Création/mise en œuvre de bundles, création de services, création de commandes, respect de l'architecture MVC, création de
                                                 templates avec Twig, gestion de la persistance avec Doctrine.
                                             </div>
                                         </div>
                                     </div>
                                     <div class="experience clearfix">
-                                        <div class="col-xs-3"><div class="lieu">Dirisi</div><div class="date">2017 (6 sem.)</div></div>
+                                        <div class="col-xs-3"><div class="lieu">Dirisi/CDADT de Toulon</div><div class="date">2017 (5 sem.)</div></div>
                                         <div class="col-xs-9">
                                             <div class="profession">Développement JAVA GWT</div>
-                                            <div class="details">Création/mise en œuvre d'un projet en JAVA GWT (GOOGLE WEB TOOLKING) sur l'IDE SAFRAN (Version de Eclipse) avec correctif de d'anomalie et tests
-                                                d'intégration et versionning svn ou avec git kraken .
+                                            <div class="details">Création/mise en œuvre d'un projet en JAVA GWT (GOOGLE WEB TOOLKING) sur l'IDE  Eclipse, correctif d'anomalie, tests
+                                                d'intégration,créations de nouveaux composants et versionning svn ou avec Gitkraken .
                                             </div>
                                         </div>
                                     </div>
@@ -210,9 +214,6 @@ and open the template in the editor.
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xs-12 col-sm-5" id="competence">
-                    <!--Partie droite -->
                     <div class="container">
                         <div class="panel panel-default">
                             <div class="panel-body">
@@ -243,115 +244,187 @@ and open the template in the editor.
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-xs-12 col-sm-5" id="competence">
+                    <!--Partie droite -->
                     <div class="container">
                         <div class="panel panel-default">
                             <div class="panel-body">
                                 <div id="competences" class="rubrique">
                                     <h2><span class="glyphicon glyphicon-wrench"></span> Compétences</h2>
                                     <div class="container">
-                                        <div class="libelle">Intégration web</div>
-                                        <div class="classement classement5"></div>
+                                        <div class="libelle">Développement mobile</div>
+                                        <div class="classement classement2"></div>
                                     </div>
                                     <div class="container">
                                         <div class="libelle">Développement web</div>
-                                        <div class="classement classement3"></div>
+                                        <div class="classement classement4"></div>
                                     </div>
                                     <div class="container">
-                                        <div class="libelle">Programation orientée objets</div>
+                                        <div class="libelle">Développement logiciel</div>
                                         <div class="classement classement5"></div>
                                     </div>
                                     <div class="container">
-                                        <div class="libelle">Langages de programmations :</div>
+                                        <div class="libelle">Programation orientée objet</div>
+                                        <div class="classement classement5"></div>
                                     </div>
-                                    <div class="meContacter">
-                                        <div class="details pull-left">
-                                            <img  src="images/ccharp.png" alt="Icone de c#" /> C#
-                                        </div>
-                                    </div>           
-                                    <div class="meContacter">
-                                        <div class="details pull-left">
-                                            <img src="images/c.png" alt="Icone de c++" /> C++
-                                        </div>
-                                    </div>
-                                    <div class="meContacter">
-                                        <div class="details pull-left">
-                                            <img src="images/s.png" alt="Icone de sql" /> SQL
-                                        </div>
-                                    </div>
-                                    <div class="meContacter">
-                                        <div class="details pull-left">
-                                            <img src="images/css.png" alt="Icone de css" /> CSS
-                                        </div>
-                                    </div>
-                                    <div class="meContacter">
-                                        <div class="details pull-left">
-                                            <img src="images/html.png" alt="Icone de html" /> html
-                                        </div>
-                                    </div>
-                                    <div class="meContacter">
-                                        <div class="details pull-left">
-                                            <img src="images/java.png" alt="Icone de java" /> java
-                                        </div>
-                                    </div>
-                                    <div class="meContacter">
-                                        <div class="details pull-left">
-                                            <img src="images/js.png" alt="Icone de java script" /> java script
-                                        </div>
-                                    </div>
-                                    <div class="meContacter">
-                                        <div class="details pull-left">
-                                            <img src="images/php.png" alt="Icone de php" /> php
-                                        </div>
-                                    </div>
-                                    <div class="meContacter">
-                                        <div class="details pull-left">
-                                            <img src="images/python.png" alt="Icone de python" /> python
-                                        </div>
-                                    </div>
+                                    <br>
                                     <div class="container">
-                                        <div class="libelle">Outils de dévelopement :</div>
-                                    </div>
-                                    <div class="meContacter">
-                                        <div class="details pull-left">
-                                            <img src="images/android studio.png" alt="Icone de Android studio" /> Android studio
+                                        <h3 class="text-center"><span class="double" style="text-decoration: underline rgb(226,0,26); border-bottom: 3px solid rgb(226,0,26);">Web</span></h3>
+                                        <div class="meContacter">
+                                            <div class="details pull-left">
+                                                <i class="fas fa-database fa-2x"></i>
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <br>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 97%">
+                                                    <span class="sr-only">97% Complete (danger)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <div class="details pull-left">
+                                                <i class="fab fa-html5 fa-2x"></i>
+                                                <i class="fab fa-css3 fa-2x"></i>
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <br>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+                                                    <span class="sr-only">95% Complete (danger)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <div class="details pull-left">
+                                                 <i class="devicon-java-plain" style="font-size: 35px;"></i>
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <br>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                                    <span class="sr-only">60% Complete (danger)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <div class="details pull-left">
+                                                <i class="fab fa-js fa-2x"></i>
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <br>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                                                    <span class="sr-only">75% Complete (danger)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <div class="details pull-left">
+                                                <i class="fab fa-php fa-2x"></i>
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <br>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100" style="width: 93%">
+                                                    <span class="sr-only">93% Complete (danger)</span>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="meContacter">
-                                        <div class="details pull-left">
-                                            <img src="images/netbeans.png" alt="Icone de netbeans" /> Netbeans
-                                        </div>
-                                    </div>
-                                    <div class="meContacter">
-                                        <div class="details pull-left">
-                                            <img src="images/Boostrap.png" alt="Icone de bootstrap" /> Bootstrap
-                                        </div>
-                                    </div>
-                                    <div class="meContacter">
-                                        <div class="details pull-left">
-                                            <img src="images/mysql.png" alt="Icone de mysql" /> mysql
-                                        </div>
-                                    </div>
-                                    <div class="meContacter">
-                                        <div class="details pull-left">
-                                            <img src="images/vs.png" alt="Icone de visual studio" /> Visual Studio
-                                        </div>
-                                    </div>
-                                    <div class="meContacter">
-                                        <div class="details pull-left">
-                                            <img src="images/GitHub.png" alt="Icone de Git Hub" /> Git Hub
-                                        </div>
-                                    </div>
-                                    <div class="meContacter">
-                                        <div class="details pull-left">
-                                            <img src="images/oracle.png" alt="Icone de oracle" /> Oracle
-                                        </div>
-                                    </div>
+                                    <br>
                                     <div class="container">
-                                        <div class="libelle">Système d'exploitation :</div>
+                                        <h3 class="text-center"><span class="double" style="text-decoration: underline #00BFFF; border-bottom: 3px solid #00BFFF;">Logiciel</span></h3>
+                                        <div class="meContacter">
+                                            <div class="details pull-left">
+                                               <i class="devicon-csharp-plain" style="font-size: 35px;"></i>
+                                            </div>
+                                        </div> 
+                                        <div class="meContacter">
+                                            <br>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+                                                    <span class="sr-only">95% Complete (info)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <div class="details pull-left">
+                                                 <i class="devicon-cplusplus-plain" style="font-size: 35px;"></i>
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <br>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                                                    <span class="sr-only">30% Complete (info)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <div class="details pull-left">
+                                                <i class="fab fa-python fa-2x"></i>
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <br>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%">
+                                                    <span class="sr-only">25% Complete (info)</span>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="meContacter">
-                                        <div class="details pull-left">
-                                            <img src="images/Windows.png" alt="Icone de Windows" /> Windows
+                                    <br>
+                                    <div class="container">
+                                        <h3 class="text-center"><span class="double" style="text-decoration: underline #008000; border-bottom: 3px solid #008000;">Mobile</span></h3>
+                                        <div class="meContacter">
+                                            <div class="details pull-left">
+                                                <img src="images/android studio.png" alt="Icone de Android studio" />
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <br>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                                    <span class="sr-only">40% Complete (danger)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="container">
+                                        <h3 class="text-center"><span class="double">Outils de développement</span></h3>
+                                        <div class="meContacter" style=" text-align: center;">
+                                            <div class="details pull-left">
+                                                <img src="images/netbeans.png" alt="Icone de netbeans" style="margin-right: 16px; margin-left: 50px;"/>
+                                                <i class="devicon-bootstrap-plain" style="font-size: 35px; margin-right: 16px;"></i>                                                
+                                                <i class="devicon-mysql-plain" style="font-size: 35px; margin-right: 16px;"></i>
+                                                <i class="devicon-visualstudio-plain" style="font-size: 35px; margin-right: 16px;"></i>
+                                                <i class="devicon-oracle-original" style="font-size: 35px; margin-right: 16px;"></i>
+                                                <i class="devicon-git-plain" style="font-size: 35px; margin-right: 16px;"></i>
+                                                <i class="fab fa-github fa-2x" style="font-size: 35px; margin-right: 16px;"></i>
+                                                <i class="devicon-trello-plain" style="font-size: 35px; margin-right: 16px;"></i>
+                                                <i class="devicon-dot-net-plain" style="font-size: 35px; margin-right: 16px;"></i>
+                                                <i class="devicon-symfony-original colored" style="font-size: 35px;"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="container">
+                                        <h3 class="text-center"><span class="double" class="double" style="text-decoration: underline #C0C0C0; border-bottom: 3px solid #C0C0C0;">système d'exploitation</span></h3>
+                                        <div class="meContacter" style=" text-align: center;">
+                                            <div class="details pull-left">
+                                                <i class="fab fa-windows fa-2x" style="margin-right: 16px;"></i>
+                                                <i class="fab fa-android fa-2x" style="margin-right: 16px;"></i>
+                                                <i class="fab fa-linux fa-2x"></i>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

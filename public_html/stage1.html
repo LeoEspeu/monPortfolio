@@ -16,7 +16,7 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    <body>
+    <body id="arriere">
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -41,7 +41,7 @@ and open the template in the editor.
                                 <li role="presentation" class="dropdown-header">En autonomie</li>
                                 <li role="presentation"><a role="menuitem" href="android.html">Application Android</a></li>
                                 <li role="presentation"><a role="menuitem" href="#">Site web</a></li>
-                                <li role="presentation"><a role="menuitem" href="images/presentation_projet_oxford.pdf">Projet Oxford</a></li>
+                                <li role="presentation"><a role="menuitem" href="logiciel.html">Logiciel</a></li>
                                 <li role="presentation" class="divider"></li>
                                 <li role="presentation" class="dropdown-header">En entreprise</li>
                                 <li role="presentation"><a role="menuitem" href="stage1.html">Projet de 1ère année</a></li>
@@ -62,7 +62,7 @@ and open the template in the editor.
                                 <li role="presentation" class="divider"></li>
                                 <li role="presentation" class="dropdown-header">Fiches d'examen</li>
                                 <li role="presentation"><a role="menuitem" href="images/PPE-GSB.pdf">Situation professionnelle n°1</a></li>
-                                <li role="presentation"><a role="menuitem" href="#">Situation professionnelle n°2</a></li>
+                                <li role="presentation"><a role="menuitem" href="images/PPE_M2L.pdf">Situation professionnelle n°2</a></li>
                                 <li role="presentation" class="divider"></li>
                                 <li role="presentation" class="dropdown-header">Démonstrations</li>
                                 <li role="presentation"><a role="menuitem" href="#">Démo SP n°1</a></li>
@@ -83,14 +83,97 @@ and open the template in the editor.
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="css\bootstrap-3.3.7-dist\js\bootstrap.min.js"></script>
         <div class="jumbotron">
-            <div>
-                <h2 class="text-center" id="souligne_double">Voici mon travail réalisés en stage de première année .</h2>
+            <div class="container">
+                <h1 class="text-left"><span class="double">Stage de 1ère année</span></h1>
             </div>
-            <div>
-                <p class="text-left">Durant la période de stage j'ai contribué à la réalisation d'une application en java gwt
-                    sur l'IDE Eclipse .Mon travail consistait à la réalisation de tests d'intègration ,la résolution d'anomalies et rajouter des 
-                    élements simples dans l'application.
+            <div class="separation">
+                <hr>
+                <div class="diviseur diviseur-gauche">
+                    <i class="fa fa-angle-down v1" aria-hidden="true"></i>
+                    <i class="fa fa-angle-down v2" aria-hidden="true"></i>
+                    <i class="fa fa-angle-down v3" aria-hidden="true"></i>
+                    <i class="fa fa-angle-down v4" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="container">
+                <p>
+                    <img id="maPhoto" class=" pull-left img-rounded" src="images/LeoEspeu.jpg" alt="Ma photo d'identité"/>
+                    Voici le projet de stage que j'ai réalisés en stage de 1ère année à la Dirisi/CDAD de toulon associés à des explications sur les conditions de travail et le lieu du stage.
                 </p>
+                <p><a class="btn btn-primary btn-lg" href="index.html" role="button">Retour à l'accueil &raquo;</a></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="panel panel-primary">
+                <div class="panel-body">
+                    <h1 id="copyright">Projet d'une application en Java GWT</h1>
+                    <h3>
+                        Q'est ce que le CDAD et la Dirisi ?
+                    </h3>
+                    <h4>
+                        Le CDAD est le centre de développement de la défense ,il est l'un des services qui composent la Dirisi (Direction Interarmées des Réseaux d'Infrastructure et des Systèmes d'Information),
+                        sachant que la Dirisi de Toulon est l'une des nombreuses que l'on peut trouver en france (Paris ,Rennes ,Bordeaux ,...).
+                    </h4>
+                    <h3>
+                        Quelle est le projet ?
+                    </h3>
+                    <h4>
+                        Le projet est une application web réalisés avec la technologie Java GWT avec une base de données Postgressql et la programmation a été rélisée avec L'IDE Eclipse dans une version spécifique utilisés uniquement par le CDAD 
+                        ,cette application doit permettre d'assurer la gestion de la partie administration d'un corps de métier de l'armée de mer.
+                    </h4>
+                    <h3>
+                        Quelles ont été les méthodes et conditions de travail ?
+                    </h3>
+                    <h4>
+                        Le projet a été réalisés selon les méthodes agiles ,ainsi cela impliqué donc:
+                    </h4>
+                    <ul>
+                        <li>
+                            <h4>La participation à des réunions quotidiennes durant lesquels chaque membre de l'équipe indique l'état d'avancement de sa tache.</h4>
+                        </li>
+                        <li>
+                            <h4>L'obligation de respecter la durée qui nous est accordait pour réaliser sa tâche.</h4>
+                        </li>
+                    </ul>
+                    <h4>
+                        Sachant que le projet est réalisés pour être utilisés par du personnel de l'armée ,les conditions de travail se font donc sur 
+                        un niveau de sécurité élevés qui se traduit ainsi par le fait de:
+                    </h4>
+                    <ul>
+                        <li>
+                            <h4>Travailler sur des ordinateurs en réseau isolé et sans connexion internet.</h4>
+                        </li>
+                        <li>
+                            <h4>
+                                Utiliser uniquement le matériel qui nous est prété (interdiction d'utiliser son matériel personnel) et ne pas l'emporter 
+                                ou l'utiliser hors du cadre du travail.
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                "Sasser" tout port USB qui navigue d'un ordinateur à un autre ,c'est à dire le passé sous antivirus sous une machine blanche
+                                qui n'est utilisée que pour faire ce type d'action.
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                Ne pas divulguer que ce soit de manière volontaire ou non (oubli d'éteindre son poste) toute information en relation avec le projet
+                                (nom de l'application ,données de la base de données).
+                            </h4>
+                        </li>
+                    </ul>
+                    <h3>
+                        Quelle a été mon travail ?
+                    </h3>
+                    <h4>
+                        Dans un premier temps ,pour pouvoir comprendre le fonctionnement de l'application ,on m'a demandé de réaliser des tests d'intégrations 
+                        (on vérifie le bon fonctionnement d'une partie précise du logiciel) ,puis par la suite ,j'ai résolus plusieurs anomalies ,avant de me confier un travail d'une grande difficulté 
+                        qui consistait à créer un outil de suggestion pour affiner les choix proposés sur une liste déroulante.
+                    </h4>
+                    <img src="images/Capture.PNG" alt="icone GLPI/OCS" />
+                </div>
+                <div id="fond" class="panel-footer">
+                </div>
             </div>
         </div>
         <footer>
