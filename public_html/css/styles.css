@@ -51,10 +51,6 @@ margin-right:10px;
     margin-left: 11%;
 }
 
-.item{
-    height: 600px;
-}
-
 #name,#subject,#email,#message{
     width: 150px;
 }
@@ -76,7 +72,7 @@ span.double{
     border-bottom: 3px solid #000;
 }
 
-@media(min-width:500px) { #name,#subject,#email,#message{width: 350px;} }
-@media(min-width:768px) { #name,#subject,#email,#message{width: 450px;} }
-@media(min-width:992px) { #name,#subject,#email,#message{width: 600px;} }
-@media(min-width:1200px) { #name,#subject,#email,#message{width: 800px;} }
+@media(min-width:500px) { #name,#subject,#email,#message{width: 350px;} .item{height: 250px;}}
+@media(min-width:768px) { #name,#subject,#email,#message{width: 450px;} .item{height: 350px;}}
+@media(min-width:992px) { #name,#subject,#email,#message{width: 600px;} .item{height: 450px;}}
+@media(min-width:1200px) { #name,#subject,#email,#message{width: 800px;} .item{height: 600px;}}
