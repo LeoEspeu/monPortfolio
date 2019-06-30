@@ -7,6 +7,9 @@ and open the template in the editor.
     Created on : 29 mars 2017, 21:29:54
     Author     : leoes
 */
+.item{
+    height: 180px;
+}
 
 #maPhoto {
 margin-right:10px;
@@ -30,7 +33,11 @@ margin-right:10px;
 }
 
 #app{
-    margin-left: 35%;
+    margin-left: 5%;
+}
+
+#itemandroid{
+    height: 600px;
 }
 
 #contact{
@@ -48,7 +55,7 @@ margin-right:10px;
 }
 
 #web{
-    margin-left: 11%;
+    margin-left: 0%;
 }
 
 #name,#subject,#email,#message{
@@ -72,7 +79,7 @@ span.double{
     border-bottom: 3px solid #000;
 }
 
-@media(min-width:500px) { #name,#subject,#email,#message{width: 350px;} .item{height: 250px;}}
-@media(min-width:768px) { #name,#subject,#email,#message{width: 450px;} .item{height: 350px;}}
-@media(min-width:992px) { #name,#subject,#email,#message{width: 600px;} .item{height: 450px;}}
-@media(min-width:1200px) { #name,#subject,#email,#message{width: 800px;} .item{height: 600px;}}
+@media(min-width:500px) { #name,#subject,#email,#message{width: 450px;}#web{margin-left: 2%;} #app{margin-left: 10%}}
+@media(min-width:768px) { #name,#subject,#email,#message{width: 500px;}.item{height: 450px;}#web{margin-left: 3%;}#app{margin-left: 30%}}
+@media(min-width:992px) { #name,#subject,#email,#message{width: 600px;}.item{height: 450px;}#web{margin-left: 5%;}#app{margin-left: 30%}#itemandroid{height: 530px;}}
+@media(min-width:1200px) { #name,#subject,#email,#message{width: 800px;} .item{height: 600px;}#web{margin-left: 11%;}#app{margin-left: 35%}}

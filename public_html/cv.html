@@ -6,7 +6,6 @@ and open the template in the editor.
 -->
 <html>   
     <head>
-        <link rel="icon" href="favicon.ico">
         <title>CV</title>
         <link href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" />
         <link href="css/cv.css" rel="stylesheet" />
@@ -49,31 +48,6 @@ and open the template in the editor.
                                 <li role="presentation"><a role="menuitem" href="stage2.html">Projet de 2ème année</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
-                                <span class="glyphicon glyphicon-education"></span>
-                                Jury E4 BTS SIO <span class="caret"></span>
-                            </a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li role="presentation" class="dropdown-header">Documentations contexte</li>
-                                <li role="presentation"><a role="menuitem" href="#">Présentation</a></li>
-                                <li role="presentation"><a role="menuitem" href="#">Application</a></li>
-                                <li role="presentation"><a role="menuitem" href="#">Missions à réaliser</a></li>
-                                <li role="presentation"><a role="menuitem" href="#">Annexes</a></li>
-                                <li role="presentation" class="divider"></li>
-                                <li role="presentation" class="dropdown-header">Fiches d'examen</li>
-                                <li role="presentation"><a role="menuitem" href="images/PPE-GSB.pdf">Situation professionnelle n°1</a></li>
-                                <li role="presentation"><a role="menuitem" href="images/PPE_M2L.pdf">Situation professionnelle n°2</a></li>
-                                <li role="presentation" class="divider"></li>
-                                <li role="presentation" class="dropdown-header">Démonstrations</li>
-                                <li role="presentation"><a role="menuitem" href="gsb/index.html">Démo SP n°1</a></li>
-                                <li role="presentation"><a role="menuitem" href="#">Démo SP n°2</a></li>
-                                <li role="presentation" class="divider"></li>
-                                <li role="presentation" class="dropdown-header">Codes sources</li>
-                                <li role="presentation"><a role="menuitem" href="https://github.com/LeoEspeu/gsb">Sources SP n°1</a></li>
-                                <li role="presentation"><a role="menuitem" href="https://thomaslaure.visualstudio.com/MaisonDesLigues">Sources SP n°2</a></li>
-                            </ul>
-                        </li>
                         <li><a href="mecontacter.html"><span class="glyphicon glyphicon-envelope"></span> Me contacter</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
@@ -86,9 +60,6 @@ and open the template in the editor.
         <div class="jumbotron">
             <div class="row cadreCV">
                 <div id="cv-entete" class="text-center">
-                    <div id="cv-photo">
-                        <img src="images/LeoEspeu.jpg" alt="Ma photo d'identité" />
-                    </div>
                     <div id="cv-intro">
                         <h1>Bonjour, je m'appelle <span>Léo</span> et voici mon CV</h1>
                     </div>
@@ -101,9 +72,9 @@ and open the template in the editor.
                             <div class="panel-body">
                                 <div class="rubrique">
                                     <h2><span class="glyphicon glyphicon-comment"></span> En quelques mots...</h2>
-                                    <p>J'ai 20 ans, j'habite Toulon et je suis passionnée d'informatique et de nouvelles technologies depuis mon plus jeune âge. Je suis actuellement un
-                                        BTS Services Informatiques aux Organisations ce qui m'a décidé à aller au delà de la passion, afin de faire de l'informatique et plus particulièrement
-                                        du développement d'applications, mon métier !
+                                    <p>
+                                        J'ai 22 ans, j'habite Toulon et je suis passionné d'informatique et de nouvelles technologies depuis mon plus jeune âge. 
+                                        J'ai récemment obtenu ma licence informatique MIAGE ce qui m'a décidé à aller au-delà de la passion, afin de faire de l'informatique et plus particulièrement du développement d'applications, mon métier !
                                     </p>
                                 </div>
                             </div>
@@ -116,9 +87,23 @@ and open the template in the editor.
                                     <h2><span class="glyphicon glyphicon-education"></span> Parcours scolaire</h2>
                                     <ul id="parcours" class="clearfix">
                                         <li>
+                                            <div class="date pull-left"><span class="glyphicon glyphicon-record"></span>&nbsp;2020</div>
+                                            <div class="details pull-right">
+                                                <h3>M1 MIAGE </h3>
+                                                <p>Master MIAGE en première année (en cours)</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="date pull-left"><span class="glyphicon glyphicon-record"></span>&nbsp;2019</div>
+                                            <div class="details pull-right">
+                                                <h3>L3 informatique MIAGE </h3>
+                                                <p>Licence informatique MIAGE en troisième année</p>
+                                            </div>
+                                        </li>
+                                        <li>
                                             <div class="date pull-left"><span class="glyphicon glyphicon-record"></span>&nbsp;2018</div>
                                             <div class="details pull-right">
-                                                <h3>BTS SIO option SLAM (en cours...)</h3>
+                                                <h3>BTS SIO option SLAM </h3>
                                                 <p>Brevet de Technicien Supérieur "Services Informatiques aux Organisations", option "Solutions Logicielles et Applications Métiers"</p>
                                             </div>
                                         </li>
@@ -126,7 +111,7 @@ and open the template in the editor.
                                             <div class="date pull-left"><span class="glyphicon glyphicon-record"></span>&nbsp;2016</div>
                                             <div class="details pull-right">
                                                 <h3>Obtention du baccalauéat </h3>
-                                                <p>Baccalauréat série scientifique spécialité "Physique-Chimie"</p>
+                                                <p>Baccalauréat série scientifique spécialité "Physique-Chimie" mention bien</p>
                                             </div>
                                         </li>
                                         <li>
@@ -147,20 +132,28 @@ and open the template in the editor.
                                 <div class="rubrique">
                                     <h2><span class="glyphicon glyphicon-briefcase"></span> Expériences professionnelles</h2>
                                     <div class="experience clearfix">
-                                        <div class="col-xs-3"><div class="lieu">Dirisi de Toulon</div><div class="date">2018 (6 sem.)</div></div>
+                                        <div class="col-xs-3"><div class="lieu">CDAD de Toulon</div><div class="date">2019 (5 mois)</div></div>
                                         <div class="col-xs-9">
-                                            <div class="profession">Developpement PHP 7.1/Symfony 3.3</div>
-                                            <div class="details">Création/mise en œuvre de bundles, création de services, création de commandes, respect de l'architecture MVC, création de
+                                            <div class="profession">Développement PHP 7.2/Symfony 3.4</div>
+                                            <div class="details">Création de services, réalisation de refontes majeures, respect de l'architecture MVC, création de
                                                 templates avec Twig, gestion de la persistance avec Doctrine.
                                             </div>
                                         </div>
                                     </div>
                                     <div class="experience clearfix">
-                                        <div class="col-xs-3"><div class="lieu">Dirisi de Toulon</div><div class="date">2017 (5 sem.)</div></div>
+                                        <div class="col-xs-3"><div class="lieu">CDAD de Toulon</div><div class="date">2018 (6 sem.)</div></div>
+                                        <div class="col-xs-9">
+                                            <div class="profession">Développement PHP 7.1/Symfony 3.3</div>
+                                            <div class="details">Création de services, réalisation de correctifs, respect de l'architecture MVC, gestion de la persistance avec Doctrine.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="experience clearfix">
+                                        <div class="col-xs-3"><div class="lieu">CDAD de Toulon</div><div class="date">2017 (5 sem.)</div></div>
                                         <div class="col-xs-9">
                                             <div class="profession">Développement JAVA GWT</div>
                                             <div class="details">Création/mise en œuvre d'un projet en JAVA GWT (GOOGLE WEB TOOLKING) sur l'IDE  Eclipse, correctif d'anomalie, tests
-                                                d'intégration,créations de nouveaux composants et versionning svn ou avec Gitkraken .
+                                                d'intégration,créations de nouveaux composants et versionning svn ou avec Git.
                                             </div>
                                         </div>
                                     </div>
@@ -203,12 +196,9 @@ and open the template in the editor.
                             <div class="panel-body">
                                 <div class="rubrique">
                                     <h2><span class="glyphicon glyphicon-music"></span> Passions</h2>
-                                    <div class="passion"><span class="glyphicon glyphicon-heart"></span> Mathématiques</div>
                                     <div class="passion"><span class="glyphicon glyphicon-heart"></span> Dév. Web</div>
-                                    <div class="passion"><span class="glyphicon glyphicon-heart"></span> Dév. Android</div>
                                     <div class="passion"><span class="glyphicon glyphicon-heart"></span> Projets</div>
                                     <div class="passion"><span class="glyphicon glyphicon-heart"></span> Programation</div>
-                                    <div class="passion"><span class="glyphicon glyphicon-heart"></span> Lecture</div>
                                     <div class="passion"><span class="glyphicon glyphicon-heart"></span> Cyclisme</div>
                                 </div>
                             </div>
@@ -228,7 +218,7 @@ and open the template in the editor.
                                     </div>
                                     <div class="meContacter">
                                         <div class="details pull-left">
-                                            <a href="#" title="Lien vers le profil LinkedIn de Léo Espeu">
+                                            <a href="https://www.linkedin.com/in/l%C3%A9o-espeu-a06975161/" title="Lien vers le profil LinkedIn de Léo Espeu">
                                                 <img class="contact-icon" src="images/cv/linkedin-dreamstale45.png" alt="Icone de LinkedIn" /> LinkedIn
                                             </a>
                                         </div>
@@ -253,74 +243,30 @@ and open the template in the editor.
                                 <div id="competences" class="rubrique">
                                     <h2><span class="glyphicon glyphicon-wrench"></span> Compétences</h2>
                                     <div class="container">
-                                        <div class="libelle">Développement mobile</div>
-                                        <div class="classement classement2"></div>
-                                    </div>
-                                    <div class="container">
                                         <div class="libelle">Développement web</div>
-                                        <div class="classement classement4"></div>
+                                        <div class="classement classement5"></div>
                                     </div>
                                     <div class="container">
                                         <div class="libelle">Développement logiciel</div>
-                                        <div class="classement classement5"></div>
+                                        <div class="classement classement4"></div>
                                     </div>
                                     <div class="container">
-                                        <div class="libelle">Programation orientée objet</div>
-                                        <div class="classement classement5"></div>
+                                        <div class="libelle">Développement mobile</div>
+                                        <div class="classement classement2"></div>
                                     </div>
                                     <br>
                                     <div class="container">
                                         <h3 class="text-center"><span class="double" style="text-decoration: underline rgb(226,0,26); border-bottom: 3px solid rgb(226,0,26);">Web</span></h3>
                                         <div class="meContacter">
                                             <div class="details pull-left">
-                                                <i class="fas fa-database fa-2x"></i>
-                                            </div>
-                                        </div>
-                                        <div class="meContacter">
-                                            <br>
-                                            <div class="progress">
-                                                <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 97%">
-                                                    <span class="sr-only">97% Complete (danger)</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="meContacter">
-                                            <div class="details pull-left">
                                                 <i class="fab fa-html5 fa-2x"></i>
-                                                <i class="fab fa-css3 fa-2x"></i>
                                             </div>
                                         </div>
                                         <div class="meContacter">
                                             <br>
                                             <div class="progress">
-                                                <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
-                                                    <span class="sr-only">95% Complete (danger)</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="meContacter">
-                                            <div class="details pull-left">
-                                                 <i class="devicon-java-plain" style="font-size: 35px;"></i>
-                                            </div>
-                                        </div>
-                                        <div class="meContacter">
-                                            <br>
-                                            <div class="progress">
-                                                <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                                    <span class="sr-only">60% Complete (danger)</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="meContacter">
-                                            <div class="details pull-left">
-                                                <i class="fab fa-js fa-2x"></i>
-                                            </div>
-                                        </div>
-                                        <div class="meContacter">
-                                            <br>
-                                            <div class="progress">
-                                                <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
-                                                    <span class="sr-only">75% Complete (danger)</span>
+                                                <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100" style="width: 97%">
+                                                    <span class="sr-only">97% Complete (danger)</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -337,26 +283,92 @@ and open the template in the editor.
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="meContacter">
+                                            <div class="details pull-left">
+                                                <i class="devicon-symfony-plain"></i>
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <br>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100" style="width: 93%">
+                                                    <span class="sr-only">93% Complete (danger)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <div class="details pull-left">
+                                                <i class="fas fa-database fa-2x"></i>
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <br>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                                                    <span class="sr-only">85% Complete (danger)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <div class="details pull-left">
+                                                <i class="fab fa-css3 fa-2x"></i>
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <br>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                                    <span class="sr-only">80% Complete (danger)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <div class="details pull-left">
+                                                <i class="fab fa-js fa-2x"></i>
+                                                <i class="devicon-jquery-plain-wordmark"></i>
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <br>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100" style="width: 77%">
+                                                    <span class="sr-only">77% Complete (danger)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <div class="details pull-left">
+                                                <i class="devicon-java-plain" style="font-size: 35px;"></i>
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <br>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%">
+                                                    <span class="sr-only">55% Complete (danger)</span>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <br>
                                     <div class="container">
                                         <h3 class="text-center"><span class="double" style="text-decoration: underline #00BFFF; border-bottom: 3px solid #00BFFF;">Logiciel</span></h3>
                                         <div class="meContacter">
                                             <div class="details pull-left">
-                                               <i class="devicon-csharp-plain" style="font-size: 35px;"></i>
+                                                <i class="devicon-csharp-plain" style="font-size: 35px;"></i>
                                             </div>
                                         </div> 
                                         <div class="meContacter">
                                             <br>
                                             <div class="progress">
-                                                <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
-                                                    <span class="sr-only">95% Complete (info)</span>
+                                                <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                                    <span class="sr-only">90% Complete (info)</span>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="meContacter">
                                             <div class="details pull-left">
-                                                 <i class="devicon-cplusplus-plain" style="font-size: 35px;"></i>
+                                                <i class="devicon-cplusplus-plain" style="font-size: 35px;"></i>
                                             </div>
                                         </div>
                                         <div class="meContacter">
@@ -386,6 +398,19 @@ and open the template in the editor.
                                         <h3 class="text-center"><span class="double" style="text-decoration: underline #008000; border-bottom: 3px solid #008000;">Mobile</span></h3>
                                         <div class="meContacter">
                                             <div class="details pull-left">
+                                                <img src="images/appinventor.png" alt="Icone de appinventor" />
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <br>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                                    <span class="sr-only">60% Complete (danger)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="meContacter">
+                                            <div class="details pull-left">
                                                 <img src="images/android studio.png" alt="Icone de Android studio" />
                                             </div>
                                         </div>
@@ -403,7 +428,6 @@ and open the template in the editor.
                                         <h3 class="text-center"><span class="double">Outils de développement</span></h3>
                                         <div class="meContacter" style=" text-align: center;">
                                             <div class="details pull-left">
-                                                <img src="images/netbeans.png" alt="Icone de netbeans" style="margin-right: 16px; margin-left: 50px;"/>
                                                 <i class="devicon-bootstrap-plain" style="font-size: 35px; margin-right: 16px;"></i>                                                
                                                 <i class="devicon-mysql-plain" style="font-size: 35px; margin-right: 16px;"></i>
                                                 <i class="devicon-visualstudio-plain" style="font-size: 35px; margin-right: 16px;"></i>
@@ -442,5 +466,3 @@ and open the template in the editor.
         </footer>
     </body>
 </html>
-
-
